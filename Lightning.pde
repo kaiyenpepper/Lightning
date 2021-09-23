@@ -13,7 +13,7 @@ void draw()
 {
   //opacity rectangle
   //make lightning fade into the background
-  fill(#183571,10);
+  fill(#183571,15);
   rect(0,0,500,500);
   //lightning draw
   while(endY < 500){
@@ -45,6 +45,9 @@ void mousePressed()
 
 void cloudDraw(){
   noStroke();
+  fill(#9B8CC6,1);
+  ellipse(240,200,150,400);
+  ellipse(130,300,100,200);
   fill(#23417C);
   ellipse(10,20,100,300);
   ellipse(50,200,60,270);
@@ -70,4 +73,5 @@ void cloudDraw(){
   ellipse(330,250,130,250);
   ellipse(300,400,200,150);
   ellipse(350,340,200,100);
+  ellipse(200,430,120,40);
 }
